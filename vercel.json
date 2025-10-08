@@ -9,19 +9,23 @@
       }
     },
     {
-      "src": "api/**/*.js",
+      "src": "api/index.js",
       "use": "@vercel/node"
     }
   ],
   "functions": {
-    "api/*.js": {
+    "api/index.js": {
       "maxDuration": 10
     }
   },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
