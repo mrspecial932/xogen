@@ -48,12 +48,12 @@ module.exports = async function handler(req, res) {
 
     // Create nodemailer transporter
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: smtpPort,
+      host:"xogen.ai",
+      port: 587,
       secure: isSSL,
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: "hr@xogen.ai",
+        pass: "c-}Y%5fh4XKV",
       },
       tls: {
         rejectUnauthorized: false
