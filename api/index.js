@@ -12,20 +12,21 @@ app.use(express.urlencoded({ extended: true }));
 
 // Create nodemailer transporter with custom SMTP settings
 const getTransporterConfig = () => {
-  const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
-  const smtpPort = parseInt(process.env.SMTP_PORT || '587');
+  const smtpHost ="xogen.ai";
+  const smtpPort = "587";
   
   // Port 465 requires SSL (secure: true)
   // Port 587 requires TLS (secure: false)
-  const isSSL = smtpPort === 465;
-  
+  const isSSL  = smtpPort === 465;
+
+
   return {
-    host: smtpHost,
-    port: smtpPort,
+    host: "xogen.ai",
+    port: 587,
     secure: isSSL, // true for 465, false for other ports
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
+      user: "hr@xogen.ai",
+      pass: "c-}Y%5fh4XKV",
     },
     tls: {
       rejectUnauthorized: false // Accept self-signed certificates
