@@ -52,7 +52,7 @@ For data and AI initiatives, Xogen offers end-to-end consulting services, from d
           </div>
           <p className="text-[20px]">
             Xogen.ai is an ai enablement and consulting business specializing in technical enable and
-            sales enablement as well as providing fractional sales guidance for
+            sales enablement as well as providing Fractional sales guidance for
             SaaS-based companies
           </p>
           <p className="text-[20px] mt-6">

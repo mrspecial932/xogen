@@ -16,6 +16,9 @@ const Whatwedo = () => {
 <br></br> <br></br>We enable Sales Engineers, BDRs, ISRs, and SDRs to be audible-ready with AI-powered messaging and account penetration strategies.
 Our expertise blends data, AI, and go-to-market enablement for scalable impact.
 We turn modern tools into real business outcomes.
+
+<br></br><br></br>
+Xogen is a proud Databricks Partner, providing deep consulting expertise in implementing, architecting, optimizing, and enabling organizations to unlock the full potential of the Databricks platform for data and AI success.
           </p>
         </div>
       </div>
